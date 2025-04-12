@@ -70,7 +70,6 @@
         padding-right: 25%;
         font-size: 3rem;
         justify-content: center;
-        padding-top: 10%;
         text-align: center;
     }
 
@@ -172,6 +171,11 @@
         cursor: pointer;
     }
 
+    .grid a div img {
+        width: 600px;
+        height: 400px;
+    }
+
     footer {
         position: static;
         left: 0;
@@ -182,16 +186,21 @@
         background-color: var(--primary-bg);
         border-top: 10px solid var(--accent);
         border-bottom: 2px solid white;
-    
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-direction: column;
         text-align: center;
         padding: 1rem 0;
         gap: 2rem;
     }
     
+    #footer-grid {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 10dvw;
+    }
+
     footer div {
-        max-width: 10vw;
         margin: 0 auto;
     }
     
@@ -304,3 +313,47 @@
             padding-bottom: 15%;
             font-size: 2.1em;
         }
+
+
+        .blog {
+            padding: 5%;
+            color: var(--primary-text);
+            background-color: var(--primary-bg);
+            text-align: left;
+        }
+        
+        .blog h2 {
+            font-size: 3rem;
+            text-align: center;
+            color: var(--accent);
+            margin-bottom: 2rem;
+        }
+        
+        .post {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .post h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: var(--highlight);
+        }
+        
+        .post .date {
+            font-size: 0.9rem;
+            color: gray;
+            margin-bottom: 1rem;
+        }
+        
+        .post a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .post a:hover {
+            text-decoration: underline;
+        }
+        

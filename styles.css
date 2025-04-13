@@ -181,6 +181,18 @@
         color: var(--accent);
         padding: 15px;
     }
+    #branding img {
+        height: 50px;
+        width: 220px;
+    }
+    #branding p {
+        position: absolute;
+        color: var(--primary-text);
+        top: 0px;
+        bottom: -100px;
+        justify-content: center;
+        text-align: center;
+    }
 
     .socials {
         display: flex;

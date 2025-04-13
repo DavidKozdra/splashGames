@@ -50,7 +50,21 @@
         border-bottom: var(--accent) 4px solid;
         animation: wavesBorder 2s infinite;
     }
-
+    @keyframes heroFlyIn {
+        0% {
+            transform: translateX(-100vw) rotateY(-720deg);
+            opacity: 0;
+        }
+        60% {
+            transform: translateX(20vw) rotateY(30deg);
+            opacity: 1;
+        }
+        100% {
+            transform: translateX(0) rotateY(0deg);
+        }
+    }
+    
+    
     @keyframes wavesBorder {
         0%{
             border-bottom: var(--accent) 2px solid;
@@ -77,6 +91,8 @@
     #hero img{
     aspect-ratio: 16/9;
     max-width: 70dvh;
+
+    animation: heroFlyIn 1.4s ease-out;
     }
 
     img {
@@ -130,6 +146,35 @@
         transform: rotateX(20deg);
 
     }
+
+    @keyframes navPop {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        80% {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    nav ul li {
+        animation: navPop 0.4s ease-out forwards;
+    }
+    
+    /* Stagger each nav item */
+    nav ul li:nth-child(1) { animation-delay: 0.3s; }
+    nav ul li:nth-child(2) { animation-delay: 0.5s; }
+    nav ul li:nth-child(3) { animation-delay: 0.7s; }
+    nav ul li:nth-child(4) { animation-delay: 0.9s; }
+    nav ul li a:hover {
+        transform: scale(1.05) rotateZ(1deg);
+        transition: transform 0.2s ease;
+    }
+        
 
 
     #branding {

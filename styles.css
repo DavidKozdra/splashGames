@@ -12,11 +12,12 @@
     body {
         background-color: var(--primary-bg);
         padding: auto;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Poppins', sans-serif;
         margin: -1px;
         min-height: 100%;
         max-width: 100%;
         color: white;
+        word-spacing: 1%;
     }
     body {
         animation: fadeIn 0.6s ease-in-out;

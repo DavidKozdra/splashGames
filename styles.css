@@ -16,6 +16,7 @@
         margin: -1px;
         min-height: 100%;
         max-width: 100%;
+        color: white;
     }
     body {
         animation: fadeIn 0.6s ease-in-out;
@@ -172,11 +173,20 @@
     nav ul li:nth-child(2) { animation-delay: 0.5s; }
     nav ul li:nth-child(3) { animation-delay: 0.7s; }
     nav ul li:nth-child(4) { animation-delay: 0.9s; }
+
+    nav ul li:nth-child(5) { animation-delay: 1.1s; }
+    nav ul li:nth-child(6) { animation-delay: 1.3s; }
+    nav ul li:nth-child(7) { animation-delay: 1.5s; }
+    nav ul li:nth-child(8) { animation-delay: 1.7s; }
     nav ul li a:hover {
         transform: scale(1.05) rotateZ(1deg);
         transition: transform 0.2s ease;
     }
         
+
+    h1, h2 {
+        text-align: center;
+    }
 
 
     #branding {
@@ -408,6 +418,7 @@
         }
         
         .blog h2 {
+            
             font-size: 3rem;
             text-align: center;
             color: var(--accent);
@@ -422,8 +433,6 @@
         
         .post h3 {
 
-            background-color: #fff;
-            text-align: center;
             font-size: 2rem;
             margin-bottom: 0.5rem;
             color: var(--highlight);
@@ -448,3 +457,9 @@
         
 
 
+        footer a:visited {
+            color: white;
+        }
+        footer a {
+            color: white;
+        }

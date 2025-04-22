@@ -1,6 +1,7 @@
 
 
-# Splash Games 🌊🎮
+# [Splash Games 🌊🎮](https://davidkozdra.github.io/splashGames/ )
+
 
 Welcome to **Splash Games** — a clean, modern website project built to showcase games, blogs, and career opportunities for a fictional game studio.  
 This site is built with pure **HTML**, **CSS** (custom properties/variables), and a touch of **JavaScript** for simple animations and interactive elements.

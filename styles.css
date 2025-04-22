@@ -491,6 +491,7 @@
     @media screen and (max-width: 800px) {
         .grid {
             flex-direction: column;
+            display: flex;
         }
 
         #hero {

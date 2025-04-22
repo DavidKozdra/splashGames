@@ -80,7 +80,6 @@
     #hero img{
     aspect-ratio: 16/9;
     animation: heroFlyIn 1.4s ease-out;
-    padding: 10%;
     }
 
     img {

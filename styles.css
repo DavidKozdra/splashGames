@@ -137,6 +137,8 @@
         border: white 2px solid;
     }
 
+
+
     nav ul li a:hover{
         border-radius: 10px;
 
@@ -367,9 +369,35 @@
             color: var(--primary-text);
             justify-content: center;
             text-align: center;
-            padding-bottom: 15%;
+            padding-bottom: 15% !important; 
             font-size: 2.1em;
+            padding: 10%;
         }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .currentLink {
+            background-color: white !important ;
+            color: #111; 
+
+            border-bottom: var(--accent) 5px solid;
+           
+            border-radius: 5px;
+        }
+        
 
 
         .blog {
@@ -393,9 +421,13 @@
         }
         
         .post h3 {
+
+            background-color: #fff;
+            text-align: center;
             font-size: 2rem;
             margin-bottom: 0.5rem;
             color: var(--highlight);
+            border-radius: 5px;
         }
         
         .post .date {
@@ -414,3 +446,5 @@
             text-decoration: underline;
         }
         
+
+

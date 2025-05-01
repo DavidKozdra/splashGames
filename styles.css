@@ -277,7 +277,7 @@
 
     .grid a div img {
         width: 600px;
-        height: 200px;
+        height: 100%;
     }
 
     footer {
